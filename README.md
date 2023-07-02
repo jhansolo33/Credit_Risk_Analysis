@@ -22,7 +22,7 @@ Oversampling Models: naive random oversampling algorithm and the SMOTE algorithm
 Undersample Model: Cluster Centroids algorithm
 Resample Model: used the SMOTEENN algorithm SMOTEENN Algorithm
 Classification Report assessed the performance of two ensemble algorithms; training a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier; each algorithm Ensemble Classifiers Generate used the imbalanced_classification_report from imbalanced-learn.
-##  Resources:
+##  Resources
  Data Source: Module-17-Challenge-Resources.zip and LoanStats_2019Q1.csv
 
  Data Tools: credit_risk_resampling_starter_code.ipynb and credit_risk_ensemble_starter_code.ipynb.
@@ -68,7 +68,7 @@ RECALL is the ability of the classifier to find all the positive samples. A low 
 
 FI SCORE is weighted average of the true positive rate (recall) and precision, where the best score is 1.0. Equation: F1 score = 2(Precision x Sensititivity)/(Precision + Sensitivity) The F1 Score equation is: 2*((precisionrecall)/(precision+recall)). It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall. The F1 for the All No Recurrence model is 2((0*0)/0+0) or 0.
 
-Analysis
+##  Analysis
 Based on the accuracy scores, the Ensemble Classifiers proved to be the most precise. EasyEnsembleClassifierp provides a highest Score for all Risk loans. The precision is low or none for all the models. In general, above the 90% of the current analysis, utlizing EasyEnsembleClassifier will perform a High-Risk loan precision as a great value for the overall analysis. Models, Naïve Random Over Sample, SMOTE Oversampling, Cluster Centroids Undersampling and SMOTEENN, performance roughly hoovers at the 50% accuracy scores, 66%, 65%, 65%, and 54% respectively.
 
 A well know principle, “Accuracy matters” yet only up to a certain extent. Other performance metrics like Confusion Matrix, Precision-Recall, and F1-Score should be consider along with Accuracy while evaluating a Machine Learning model. Precision for all four models are 0.01 for high-risk loans and 1.00 for low risk loans. Low precision scores for high-risk loans is based on the large number of false positives, meaning that many of low-risk loans were marked as high-risk loans. High score for low-risk loans indicate that nearly all low risk scores were marked correctly; however, lower recall score (0.58 for naive Naive Random Oversampling and Logistic Regression, for example) indicates that there were quite a few low risks loans that were market as high risk, when that was not the case. Actual high-risk loans have slightly better scores on recall (0.74 for naive Naive Random Oversampling and Logistic Regression, for example) indicating that there weren't as many false negatives or not many high-risk loans were marked as low risk loans.
