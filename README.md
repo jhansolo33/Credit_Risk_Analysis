@@ -39,23 +39,28 @@ Classification Report assessed the performance of two ensemble algorithms; train
 Oversampling
 
 ![Image 1](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/5de7bfcd-ccb3-4e8f-8c0d-bd4ab72f0d7d)
+![image 2](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/f32895ac-83db-4d5a-a1fb-302b0e7121de)
+
+
 
 Undersampling
 Also, testing an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. The undersampling of the data done by the Cluster Centroids algorithm.
 
-Image 3
+![Image 3](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/bfc3a8f8-b343-41ed-8f48-2dd271897016)
 
 Over/Under Sampling: SMOTEENN
 Another test combined over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above.
 
-Image 4
+![image 4](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/28da3f15-9da7-46b6-88ca-ddeb3df95826)
+
 
 Ensemble Classifiers
 We compared two ensemble algorithms to determine which algorithm results in the best performance. You will train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
 
+![image 5](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/d6fae4e9-a3c0-4840-af78-f427362cd79d)
+![image 6](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/6a91e2f4-217b-42cb-a74d-8062f623d1b6)
 
 
-Image 6
 
 Terms
 The ML models process of fitting, reshaping, and training the same data is carried out significantly different. The evaluating parameters followed by a description of their origin follow:
