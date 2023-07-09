@@ -1,27 +1,27 @@
 # Credit_Risk_Analysis
 
 ##  Overview
-In 2019, more than 19 million Americans had at least one unsecured personal loan. That's a record-breaking number! Personal lending is growing faster than credit card, auto, mortgage, and even student debt. With such incredible growth, FinTech firms are storming ahead of traditional loan processes. By using the latest machine learning techniques, these FinTech firms can continuously analyze large amounts of data and predict trends to optimize lending. In this project we have utilized Python to build and evaluate several machine learning models to predict credit risk. These skills allow the prediction of credit risk with machine learning algorithms which can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud. Skills acquired:
+In 2019, more than 19 million Americans had at least one unsecured personal loan. That's a record-breaking number! Personal lending is growing faster than credit card, auto, mortgage, and even student debt. With such incredible growth, FinTech firms are storming ahead of traditional loan processes. By using the latest machine learning techniques, these FinTech firms can continuously analyze large amounts of data and predict trends to optimize lending. In this project we have utilized Python to build and evaluate several machine learning models to predict credit risk. These skills allow the prediction of credit risk with machine learning algorithms which can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud. Skills that were learned:
 
 • Explain how a machine learning algorithm is used in data analytics.
 
-• Create training and test groups from a given data set.
+• Create training and test groups from a given data set
 
-• Implement the logistic regression, decision tree, random forest, and support vector machine algorithms.
+• Implement the logistic regression, decision tree, random forest, and support vector machine algorithms
 
-• Interpret the results of the logistic regression, decision tree, random forest, and support vector machine algorithms.
+• Interpret the results of the logistic regression, decision tree, random forest, and support vector machine algorithms
 
-• Compare the advantages and disadvantages of each supervised learning algorithm.
+• Compare the advantages and disadvantages of each supervised learning algorithm
 
-• Determine which supervised learning algorithm is best used for a given data set or scenario.
+• Determine which supervised learning algorithm is best used for a given data set or scenario
 
 • Use ensemble and resampling techniques to improve model performance.
 
 ##  Analysis Reports Used to Predict Credit Risk
-Oversampling Models: naive random oversampling algorithm and the SMOTE algorithm
-Undersample Model: Cluster Centroids algorithm
-Resample Model: used the SMOTEENN algorithm SMOTEENN Algorithm
-Classification Report assessed the performance of two ensemble algorithms; training a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier; each algorithm Ensemble Classifiers Generate used the imbalanced_classification_report from imbalanced-learn.
+1.  Oversampling Models: naive random oversampling algorithm and the SMOTE algorithm
+2.  Undersample Model: Cluster Centroids algorithm
+3.  Resample Model: used the SMOTEENN algorithm SMOTEENN Algorithm
+4.  Classification Report assessed the performance of two ensemble algorithms; training a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier; each algorithm Ensemble Classifiers Generate used the imbalanced_classification_report from imbalanced-learn.
 ##  Resources
  Data Source: Module(18)-Challenge-Resources.zip and LoanStats_2019Q1.csv
 
@@ -35,26 +35,27 @@ Classification Report assessed the performance of two ensemble algorithms; train
 
  Scikit-learn
 
+
 ##  Results: Resampling Models to Predict Credit Risk
-Oversampling
+###  Oversampling
 
 ![Image 1](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/5de7bfcd-ccb3-4e8f-8c0d-bd4ab72f0d7d)
 ![image 2](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/f32895ac-83db-4d5a-a1fb-302b0e7121de)
 
 
 
-Undersampling
+###  Undersampling
 Also, testing an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. The undersampling of the data done by the Cluster Centroids algorithm.
 
 ![Image 3](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/bfc3a8f8-b343-41ed-8f48-2dd271897016)
 
-Over/Under Sampling: SMOTEENN
+###  Over/Under Sampling: SMOTEENN
 Another test combined over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above.
 
 ![image 4](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/28da3f15-9da7-46b6-88ca-ddeb3df95826)
 
 
-Ensemble Classifiers
+###  Ensemble Classifiers
 We compared two ensemble algorithms to determine which algorithm results in the best performance. You will train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
 
 ![image 5](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/d6fae4e9-a3c0-4840-af78-f427362cd79d)
@@ -62,7 +63,7 @@ We compared two ensemble algorithms to determine which algorithm results in the 
 
 
 
-Terms
+###  Terms
 The ML models process of fitting, reshaping, and training the same data is carried out significantly different. The evaluating parameters followed by a description of their origin follow:
 
 ACCURACY SCORE reports a percentage of precision of the predictions compared to the actual results. However, it is not enough just to see that results, especially with unbalanced data. Equation: accuracy score = number of correct prediction/total number of predictions.
