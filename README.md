@@ -23,18 +23,17 @@ In 2019, more than 19 million Americans had at least one unsecured personal loan
 3.  Resample Model: used the SMOTEENN algorithm SMOTEENN Algorithm
 4.  Classification Report assessed the performance of two ensemble algorithms; training a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier; each algorithm Ensemble Classifiers Generate used the imbalanced_classification_report from imbalanced-learn.
 ##  Resources
- Data Source: Module(18)-Challenge-Resources.zip and LoanStats_2019Q1.csv
+###  Data Sources: Module(18)-Challenge-Resources.zip and LoanStats_2019Q1.csv
 
- Data Tools: credit_risk_resampling_starter_code.ipynb and credit_risk_ensemble_starter_code.ipynb.
+###  Data Tools: credit_risk_resampling_starter_code.ipynb and credit_risk_ensemble_starter_code.ipynb.
 
- Software: Python, Visual Studio Code, Anaconda, Jupyter Notebook, and Pandas
+###  Software: Python, Visual Studio Code, Anaconda, Jupyter Notebook, and Pandas
 
- NumPy
-
- SciPy
-
- Scikit-learn
-
+###  Python Ecosystem libraries:
+NumPy
+SciPy
+Scikit-learn
+imbalanced-learn package in the nlenv environment
 
 ##  Results: Resampling Models to Predict Credit Risk
 ###  Oversampling
