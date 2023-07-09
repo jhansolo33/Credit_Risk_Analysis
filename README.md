@@ -23,7 +23,7 @@ Undersample Model: Cluster Centroids algorithm
 Resample Model: used the SMOTEENN algorithm SMOTEENN Algorithm
 Classification Report assessed the performance of two ensemble algorithms; training a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier; each algorithm Ensemble Classifiers Generate used the imbalanced_classification_report from imbalanced-learn.
 ##  Resources
- Data Source: Module-17-Challenge-Resources.zip and LoanStats_2019Q1.csv
+ Data Source: Module(18)-Challenge-Resources.zip and LoanStats_2019Q1.csv
 
  Data Tools: credit_risk_resampling_starter_code.ipynb and credit_risk_ensemble_starter_code.ipynb.
 
@@ -37,8 +37,7 @@ Classification Report assessed the performance of two ensemble algorithms; train
 
 ##  Results: Resampling Models to Predict Credit Risk
 Oversampling
-
-Image 2
+![Image 1](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/5de7bfcd-ccb3-4e8f-8c0d-bd4ab72f0d7d)
 
 Undersampling
 Also, testing an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. The undersampling of the data done by the Cluster Centroids algorithm.
