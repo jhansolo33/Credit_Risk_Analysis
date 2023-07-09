@@ -37,6 +37,7 @@ Classification Report assessed the performance of two ensemble algorithms; train
 
 ##  Results: Resampling Models to Predict Credit Risk
 Oversampling
+
 ![Image 1](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/5de7bfcd-ccb3-4e8f-8c0d-bd4ab72f0d7d)
 
 Undersampling
