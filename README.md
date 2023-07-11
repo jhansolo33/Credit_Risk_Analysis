@@ -39,52 +39,34 @@ imbalanced-learn package in the nlenv environment
 ##  Results: Resampling Models to Predict Credit Risk
 ###  Oversampling
 
-![Image 1](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/5de7bfcd-ccb3-4e8f-8c0d-bd4ab72f0d7d)
-![image 2](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/f32895ac-83db-4d5a-a1fb-302b0e7121de)
-
-
 
 ###  Undersampling
 Also, testing an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. The undersampling of the data done by the Cluster Centroids algorithm.
 
-![Image 3](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/bfc3a8f8-b343-41ed-8f48-2dd271897016)
 
 ###  Over/Under Sampling: SMOTEENN
 Another test combined over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above.
 
-![image 4](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/28da3f15-9da7-46b6-88ca-ddeb3df95826)
-
-
 ###  Ensemble Classifiers
 We compared two ensemble algorithms to determine which algorithm results in the best performance. You will train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
 
-##Balanced Random Forest Classifier:
+## Balanced Random Forest Classifier:
 
-Predicted High_Risk	Predicted Low_Risk
-Actual High-Risk	65	36
-Actual Low-Risk	1692	15412
                    pre       rec       spe        f1       geo       iba       sup
 
-  high_risk       0.04      0.64      0.90      0.07      0.76      0.56       101
-   low_risk       1.00      0.90      0.64      0.95      0.76      0.59     17104
+  high_risk       0.01      0.71      0.61      0.02      0.66      0.44       101
+   low_risk       1.00      0.61      0.71      0.76      0.66      0.43     17104
 
-avg / total       0.99      0.90      0.65      0.94      0.76      0.59     17205
+avg / total       0.99      0.61      0.71      0.76      0.66      0.43     17205
 
 ##Easy Ensemble AdaBoost Classifier
 
-	Predicted 0	Predicted 1
-  Actual 0	65	36
-  Actual 1	1692	15412
-              Classification Report
-              precision    recall  f1-score   support
+                   pre       rec       spe        f1       geo       iba       sup
 
-   high_risk       0.04      0.64      0.07       101
-    low_risk       1.00      0.90      0.95     17104
+  high_risk       0.01      0.71      0.61      0.02      0.66      0.44       101
+   low_risk       1.00      0.61      0.71      0.76      0.66      0.43     17104
 
-    accuracy                           0.90     17205
-   macro avg       0.52      0.77      0.51     17205
-weighted avg       0.99      0.90      0.94     17205
-
+avg / total       0.99      0.61      0.71      0.76      0.66      0.43     17205
 
 
 ###  Terms
