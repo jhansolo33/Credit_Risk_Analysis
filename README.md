@@ -59,7 +59,7 @@ We compared two ensemble algorithms to determine which algorithm results in the 
 
 avg / total       0.99      0.61      0.71      0.76      0.66      0.43     17205
 
-##Easy Ensemble AdaBoost Classifier
+##  Easy Ensemble AdaBoost Classifier
 
                    pre       rec       spe        f1       geo       iba       sup
 
