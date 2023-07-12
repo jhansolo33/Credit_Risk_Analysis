@@ -30,14 +30,17 @@ In 2019, more than 19 million Americans had at least one unsecured personal loan
 
 ###  Software: Python, Visual Studio Code, Anaconda, Jupyter Notebook, and Pandas
 
-###  Python Ecosystem libraries:
-NumPy
-SciPy
-Scikit-learn
-imbalanced-learn package in the nlenv environment
+###  Python Ecosystem libraries:  NumPy, SciPy, Scikit-learn, imbalanced-learn in the nlenv environment
 
 ##  Results: Resampling Models to Predict Credit Risk
 ###  Oversampling
+#### 7/12/23, 5:45 PM credit_risk_resampling - Jupyter Notebook
+localhost:8888/notebooks/Class/credit risk/Starter_Code/credit_risk_resampling.ipynb 1/1
+### NaiveRandom pre-rec-spe--f1---geo---iba--sup
+### high_risk 0.01 0.71 0.61 0.02 0.66 0.44 101
+### low_risk  1.00 0.61 0.71 0.76 0.66 0.43 17104
+## avg/total  0.99 0.61 0.71 0.76 0.66 0.43 17205
+
 
 
 ###  Undersampling
