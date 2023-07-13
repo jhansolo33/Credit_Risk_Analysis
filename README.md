@@ -36,10 +36,10 @@ In 2019, more than 19 million Americans had at least one unsecured personal loan
 ###  Oversampling
 #### 7/12/23, 5:45 PM credit_risk_resampling - Jupyter Notebook
 localhost:8888/notebooks/Class/credit risk/Starter_Code/credit_risk_resampling.ipynb 1/1
-### NaiveRandom pre-rec-spe--f1---geo---iba--sup
-### high_risk 0.01 0.71 0.61 0.02 0.66 0.44 101
-### low_risk  1.00 0.61 0.71 0.76 0.66 0.43 17104
-## avg/total  0.99 0.61 0.71 0.76 0.66 0.43 17205
+![Naive Random](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/dec69c2c-a7bf-459f-925b-9fdcf3865f89)
+
+![Smote Oversampling](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/40112e13-ffd8-4335-b39f-b6bce0a7c015)
+
 
 
 
