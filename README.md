@@ -41,17 +41,22 @@ localhost:8888/notebooks/Class/credit risk/Starter_Code/credit_risk_resampling.i
 ![Naive Random](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/dec69c2c-a7bf-459f-925b-9fdcf3865f89)
 
 ###  Smote Oversampling
-![Smote Oversampling](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/40112e13-ffd8-4335-b39f-b6bce0a7c015)
+![Screenshot (72)](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/c3442920-8c84-4fb8-b130-128b3d58e89c)
+
 
 
 
 
 ###  Undersampling
 Also, testing an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. The undersampling of the data done by the Cluster Centroids algorithm.
+![Screenshot (69)](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/fa99c607-f448-446a-a7ea-ad2783acee37)
+
 
 
 ###  Over/Under Sampling: SMOTEENN
 Another test combined over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above.
+![Screenshot (68)](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/d476594c-62bd-4626-a614-84087794ff9d)
+
 
 ###  Ensemble Classifiers
 We compared two ensemble algorithms to determine which algorithm results in the best performance. You will train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
