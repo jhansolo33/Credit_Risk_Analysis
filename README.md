@@ -49,8 +49,6 @@ localhost:8888/notebooks/Class/credit risk/Starter_Code/credit_risk_resampling.i
 
 ###  Undersampling
 Also, testing an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. The undersampling of the data done by the Cluster Centroids algorithm.
-![Screenshot (69)](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/fa99c607-f448-446a-a7ea-ad2783acee37)
-
 
 
 ###  Over/Under Sampling: SMOTEENN
