@@ -35,8 +35,7 @@ In 2019, more than 19 million Americans had at least one unsecured personal loan
 ##  Results: Resampling Models to Predict Credit Risk
 
 ###  Oversampling
-#### 7/12/23, 5:45 PM credit_risk_resampling - Jupyter Notebook
-localhost:8888/notebooks/Class/credit risk/Starter_Code/credit_risk_resampling.ipynb 1/1
+
 ### Naive Random Oversampling
 ![Naive Random](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/dec69c2c-a7bf-459f-925b-9fdcf3865f89)
 
@@ -57,25 +56,17 @@ Another test combined over- and under-sampling algorithm to determine if the alg
 
 
 ###  Ensemble Classifiers
-We compared two ensemble algorithms to determine which algorithm results in the best performance. You will train a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
+We compared two ensemble algorithms to determine which algorithm results in the best performance. I trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier.
 
 ## Balanced Random Forest Classifier:
+![Screenshot (75)](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/e0636619-f6a1-4607-badb-3aebd885c5ca)
 
-                   pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.01      0.71      0.61      0.02      0.66      0.44       101
-   low_risk       1.00      0.61      0.71      0.76      0.66      0.43     17104
-
-avg / total       0.99      0.61      0.71      0.76      0.66      0.43     17205
+    
 
 ##  Easy Ensemble AdaBoost Classifier
+![Screenshot (76)](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/429729d8-8489-4581-9d9c-d1d9d83a2f44)
 
-                   pre       rec       spe        f1       geo       iba       sup
-
-  high_risk       0.01      0.71      0.61      0.02      0.66      0.44       101
-   low_risk       1.00      0.61      0.71      0.76      0.66      0.43     17104
-
-avg / total       0.99      0.61      0.71      0.76      0.66      0.43     17205
+    
 
 
 ###  Terms
@@ -92,7 +83,7 @@ F1 SCORE is weighted average of the true positive rate (recall) and precision, w
 ##  Analysis
 Based on the accuracy scores, the Ensemble Classifiers proved to be the most precise. EasyEnsembleClassifierp provides a highest Score for all Risk loans. The precision is low or none for all the models. In general, above the 90% of the current analysis, utlizing EasyEnsembleClassifier will perform a High-Risk loan precision as a great value for the overall analysis. Models, Naïve Random Over Sample, SMOTE Oversampling, Cluster Centroids Undersampling and SMOTEENN.
 
-A well know principle, “Accuracy matters” yet only up to a certain extent. Other performance metrics like Confusion Matrix, Precision-Recall, and F1-Score should be consider along with Accuracy while evaluating a Machine Learning model. Precision for all four models are 0.01 for high-risk loans and 1.00 for low risk loans. Low precision scores for high-risk loans is based on the large number of false positives, meaning that many of low-risk loans were marked as high-risk loans. High score for low-risk loans indicate that nearly all low risk scores were marked correctly; however, lower recall score (0.58 for naive Naive Random Oversampling and Logistic Regression, for example) indicates that there were quite a few low risks loans that were market as high risk, when that was not the case. Actual high-risk loans have slightly better scores on recall (0.77 for naive Naive Random Oversampling) indicating that there weren't as many false negatives or not many high-risk loans were marked as low risk loans.
+A well know principle, “Accuracy matters” yet only up to a certain extent. Other performance metrics like Confusion Matrix, Precision-Recall, and F1-Score should be consider along with Accuracy while evaluating a Machine Learning model. Precision for all four models are 0.01 for high-risk loans and 1.00 for low risk loans. Low precision scores for high-risk loans is based on the large number of false positives, meaning that many of low-risk loans were marked as high-risk loans. High score for low-risk loans indicate that nearly all low risk scores were marked correctly; however, lower recall score (0.61 for naive Naive Random Oversampling and Logistic Regression, for example) indicates that there were quite a few low risks loans that were market as high risk, when that was not the case. Actual high-risk loans have slightly better scores on recall (0.71 for naive Naive Random Oversampling) indicating that there weren't as many false negatives or not many high-risk loans were marked as low risk loans.
 
 Generally speaking, the precision-recall values keep changing as you increase or decrease the threshold. Building a model with higher precision or recall depends on the problem statement you’re dealing with and its requirements.
 
