@@ -33,11 +33,14 @@ In 2019, more than 19 million Americans had at least one unsecured personal loan
 ###  Python Ecosystem libraries:  NumPy, SciPy, Scikit-learn, imbalanced-learn in the nlenv environment
 
 ##  Results: Resampling Models to Predict Credit Risk
+
 ###  Oversampling
 #### 7/12/23, 5:45 PM credit_risk_resampling - Jupyter Notebook
 localhost:8888/notebooks/Class/credit risk/Starter_Code/credit_risk_resampling.ipynb 1/1
+### Naive Random Oversampling
 ![Naive Random](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/dec69c2c-a7bf-459f-925b-9fdcf3865f89)
 
+###  Smote Oversampling
 ![Smote Oversampling](https://github.com/jhansolo33/Credit_Risk_Analysis/assets/119264589/40112e13-ffd8-4335-b39f-b6bce0a7c015)
 
 
